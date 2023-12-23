@@ -18,8 +18,3 @@
     }
 </script>
 
-<style scoped>
-body {
-    background-color: #f77c3e
-}
-</style>
