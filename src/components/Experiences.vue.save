@@ -1,0 +1,37 @@
+<template>
+    <div class = "bg-white border mt-5 rounded">
+  O      <h3>Experiências</h3>
+OB        <div v-for = "e in experiences" class = "row">
+            <div class = "col col-sm-1 text-center">
+               <img :src = "e.img" class = "img img-thumbnsil img-fluidss">
+            </div>
+            <div class = "col">
+                <h4>{{e.title}}</h4>
+                <span>{{e.from}} - {{e.to}}</span> <br>
+                <span>{{e.location}}</span> <br>
+                <span>{{e.role}}</span> <br>
+                <p>{{e.description}}</p>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+     export default {
+        name: 'Experiences',
+        components: {},
+        data() {
+             return {
+                experiences: [
+                    {img: 'ufrrj.jpg', location: 'Rio de Janeiro, Brasil', title: 'CNPq', role: 'Bolsista de Iniciação científica', from: '03/2022', to: '08/2022', 'description': 'Projeto que visava o descobrimento de certas propriedades de uma certa classe de grafos, da teoria dos grafos, através de algoritmos implementados em C++ e usando multithreading, estruturas de dados bem como outros algoritmos clássicos presentes na literatura afim de serem usados para descobrir uma maneira de caracterizar essa classe de grafos.'},
+                    {img: 'pedroii.jpg', location: 'Rio de Janeiro, Brasil',  title: 'Colégio Pedro II', role: 'Curso técnico em Desenvolvimento de Sistemas', from : '03/2015', to: '12/2017', 'description': 'Projeto que visava o descobrimento de certas propriedades de uma certa classe de grafos, da teoria dos grafos, através de algoritmos implementados em C++ e usando multithreading, estruturas de dados bem como outros algoritmos clássicos presentes na literatura afim de serem usados para descobrir uma maneira de caracterizar essa classe de grafos.'}
+                ]
+            }
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>
+
