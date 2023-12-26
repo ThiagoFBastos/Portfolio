@@ -34,7 +34,7 @@
                 languages: ['C/C++', 'Pyrhon', 'Javascript', 'C#'],
                 databases: ['SQL', 'PostgresSQL', 'MySQL'],
                 backends: ['Django', 'Nodejs', 'Sequelize'],
-                frontends: ['HTML5', 'CSS3', 'Vuejs']  
+                frontends: ['HTML5', 'CSS3']  
             }
         }
     }

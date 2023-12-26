@@ -87,7 +87,7 @@ a {
                     },
                     {
                         title: 'Portifólio',
-                        description: 'Site com vue puro para apresentar meus portifólios e falar um pouco sobre mim ',
+                        description: 'Site com vue puro para apresentar meu portifólio e falar um pouco sobre mim',
                         skills: ['vuejs', 'javascript', 'nodejs'],
                         link: 'https://github.com/ThiagoFBastos/Portifolio'          
                     },
