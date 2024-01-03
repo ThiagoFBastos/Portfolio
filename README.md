@@ -1,5 +1,5 @@
-# Portifólio
-Projeto com vuejs para criar um portifólio (site)
+# Portfólio
+Projeto com vuejs para criar um portfólio (site)
 
 # Requisitos
 - Node js

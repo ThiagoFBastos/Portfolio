@@ -102,6 +102,12 @@ a {
                         description: 'algoritmo para encontrar árvores não rotuladas ',
                         skills: ['c++', 'multithreading'],
                         link: 'https://github.com/ThiagoFBastos/isotree'
+                    },
+                    {
+                        title: 'API-Rest',
+                        description: 'API REST feito com django e django-ninja',
+                        skills: ['python', 'django', 'django-ninja'],
+                        link: 'https://github.com/ThiagoFBastos/API-Rest'
                     }
                 ]
             }
