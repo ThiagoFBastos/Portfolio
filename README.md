@@ -5,5 +5,6 @@ Projeto com vuejs para criar um portfólio (site)
 - Node js
 
 # Uso
-- No terminal insira: npm run dev
-- Após isso visite o link que aparece na tela
+1. No terminal insira: npm install
+2. Depois insira: npm run dev
+3. Após isso visite o link que aparece na tela
